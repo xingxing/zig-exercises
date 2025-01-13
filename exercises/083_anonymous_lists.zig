@@ -21,5 +21,5 @@ pub fn main() void {
     //     = .{ 'h', 'e', 'l', 'l', 'o' };
     //
     const hello = .{ 'h', 'e', 'l', 'l', 'o' };
-    print("I say {s}!\n", .{hello});
+    print("I say {c}{c}{c}{c}{c}!\n", hello);
 }
